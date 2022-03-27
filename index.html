@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <title>Truth Tables</title>
+  <style>
+    body {
+      font-size: larger;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+      align-self: center;
+      margin-bottom: 40px;
+      margin-left: 40px;
+      align-items: center;
+    }
+
+    th {
+      font-weight: bolder;
+      background-color: aquamarine;
+
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f8c5c5;
+    }
+
+    h3 {
+      margin-left: 120px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3>Truth Table for AND operator </h3>
+
+  <table>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>A && B</th>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>false</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>true</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>false</td>
+      <td>false</td>
+    </tr>
+  </table>
+
+  <h3>Truth Table for OR operator </h3>
+
+  <table>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>A || B</th>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>false</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>false</td>
+      <td>false</td>
+    </tr>
+  </table>
+
+  <h3>Truth Table for NOT operator </h3>
+
+  <table>
+    <tr>
+      <th>A</th>
+      <th>!A</th>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>true</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

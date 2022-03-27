@@ -1,0 +1,13 @@
+{
+  "name": "crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fs.js",
+  "scripts": {
+    "dev": "npx nodemon run server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
